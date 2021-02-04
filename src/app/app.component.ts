@@ -3,7 +3,6 @@ import { HttpClient } from "@angular/common/http";
 
 @Component({
   selector: "my-app",
-  templateUrl: "./app.component.html",
   template: `
     <select>
       <option *ngFor="let item of items" [value]="item.title">{{
